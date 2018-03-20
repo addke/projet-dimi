@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>  
+    <head>
+        <title>HOME</title>
         <!--COMPARTIMENT INCLUDE-->
-        <title>On n'écrase pas les fourmis</title>
         <?php include("inc/head.php"); ?>
+        <!--------------------------------->
     </head>
     <body>
         <main>
             <!--COMPARTIMENT INCLUDE-->
             <?php include("inc/header.php"); ?>
+            <!--------------------------------->
 
             <section class="section-home">
                 section home
@@ -39,14 +41,18 @@
                 NEWSLETTER
             </section>
 
+
             <!--COMPARTIMENT INCLUDE-->
             <?php include("inc/footer.php"); ?>
-
-
-
-            <!--SCRIPT SCROLL-->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+            <!--------------------------------->
+            
+            <!--------------------------------->
+            <!--------------SCRIPT-------------->
+            <!--------------------------------->
+            
             <script>
+                //BTN SCROLL EFFECT
+                
                 $(document).ready(function() {
                     $('.scroll-down').on('click', function() {
                         var page = $(this).attr('href'); 
@@ -76,7 +82,6 @@
                     }
                 });
             </script>
-
-        </main>
+        </main>   
     </body>
 </html>
